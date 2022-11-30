@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Minnana - BareLand</name>
+	<gx:CascadingStyle kml:id="__managed_style_236E341430254D736833">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_162960768D254D736833">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0BB2240CD6254D736833">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_162960768D254D736833</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_236E341430254D736833</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="077EB461D8254D736832">
+		<name>Untitled Polygon</name>
+		<LookAt>
+			<longitude>80.21907786058247</longitude>
+			<latitude>6.943551896912034</latitude>
+			<altitude>49.96895151116065</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>268.5572445272919</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0BB2240CD6254D736833</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.21871686787135,6.943339573283112,58.87856733477714 80.21885410059789,6.943287733780633,57.56901474179092 80.21897332710203,6.943241394657633,55.94695830643907 80.21908271108154,6.943191576813817,54.53447730638801 80.21917523852684,6.943085494157247,53.5343096634676 80.21947064145954,6.943279142651352,48.14248992152361 80.2192655493705,6.943598273992754,46.58816813881831 80.21917201508809,6.943547773794609,48.76907400696579 80.21907418840657,6.943713846359152,46.26846717511498 80.21915146275573,6.943814495715774,43.45029793891096 80.21905932683933,6.943905043374724,42.31800554912439 80.21891236378067,6.943847926550913,45.09467805789772 80.2188065551868,6.944079348432941,40.71133992248804 80.21873644192321,6.944135609597588,40.20544551973219 80.21876155534507,6.944168615955705,39.46325235664264 80.21875290163386,6.94418578657223,39.29430127895935 80.21871515736441,6.94419956681738,39.13626603149309 80.21869151096664,6.944278520230034,37.49806560598406 80.21873945394128,6.944304733513066,37.13817305814523 80.21871540237875,6.944411672731353,34.98129694950372 80.21855080708559,6.944458688718463,33.9595872388229 80.21850627696392,6.944170794838525,39.04835736238094 80.21853309356236,6.944132594699604,39.84681614398522 80.2185408464638,6.944098113726012,40.50512779960803 80.21849162203627,6.944084509510578,40.60153974199739 80.21846235798073,6.943930257554949,43.88880351255308 80.21850071638256,6.943896298823172,44.91922493787939 80.21847880660995,6.943796072020926,47.21170478443667 80.2185392069286,6.943552984633949,53.1795560437919 80.21859476458904,6.943335122163941,58.24920625208942 80.21871686787135,6.943339573283112,58.87856733477714 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

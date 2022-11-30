@@ -1,0 +1,36 @@
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body>
+<h2>Map View of the Land</h2>
+<div data-include="bounded_map.html"></div>
+<iframe src="bounded_map.html" seamless style="width:700px;height:300px;"></iframe>
+
+<h2>Green cover and Carbon Sequestration</h2>
+<div class="row">
+
+  <div class="column">
+    <img src="gren_cover.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="forecast.png"  style="width:100%">
+  </div>
+</div>
+</body>
+</html>

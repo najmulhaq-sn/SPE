@@ -1,0 +1,9 @@
+# Make sure the order is preserved
+
+File Path:Kolonnawa.kml
+Existing tree type:Rubber
+No of trees : 100
+species type: broadLeavedSpecies
+Regions type: tropicalDryRegions
+Annual rainfall (mm): 1025
+Age Forecast : 20

@@ -1,0 +1,16 @@
+# Make sure the order is preserved
+
+File Path:Sri Lanka.kml
+Existing tree type:Rubber
+Existing tree count :100
+Age of the plantation:22
+NDVI Lower threshold value:0.77
+NDVI Upper threshold value:0.92
+Availability of spacing between the trees? (yes/no):no
+spacing between parallel: 3
+spacing along line: 5
+species type: broadLeavedSpecies
+Regions type: tropicalDryRegions
+Annual rainfall (mm): 1025
+DBH (cm ): 25.667
+Height (m): 16.064

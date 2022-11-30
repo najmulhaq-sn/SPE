@@ -1,0 +1,16 @@
+# Make sure the order is preserved
+
+File Path:AmazonSPE.kml
+Existing tree type:Rubber
+Existing tree count :7000000
+Age of the plantation:22
+NDVI Lower threshold value:0.77
+NDVI Upper threshold value:0.92
+Availability of spacing between the trees? (yes/no):no
+spacing between parallel: 4 
+spacing along line: 5 
+species type: broadLeavedSpecies
+Regions type: tropicalHumidRegion
+Annual rainfall (mm): 2000
+DBH (cm ): 35
+Height (m): 20

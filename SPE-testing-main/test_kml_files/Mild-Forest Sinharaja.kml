@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mild-Forest Sinharaja</name>
+	<gx:CascadingStyle kml:id="__managed_style_08AA4C089F254D8D8D1B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FBAA99C0E254D8D8D1A">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0C13A76AE4254D8D8D1A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FBAA99C0E254D8D8D1A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_08AA4C089F254D8D8D1B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="08AAB56645254D8D8D19">
+		<name>Untitled Polygon</name>
+		<LookAt>
+			<longitude>80.59510626761094</longitude>
+			<latitude>6.385736632682946</latitude>
+			<altitude>970.4583570816665</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>8208.657949356129</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0C13A76AE4254D8D8D1A</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.57149023066471,6.387984299098344,682.9127434056657 80.5716842122568,6.37847299826326,775.5948283051141 80.61607216293336,6.379594294140061,927.8752978210978 80.61754236671328,6.382903387287306,1080.155767337081 80.62068346031339,6.384789973302603,1082.344280608554 80.62107931600856,6.389425472844605,1083.43853724429 80.62111101276213,6.394671920688309,1083.985665562158 80.62044584598877,6.397480476270198,1084.532793880026 80.61895338064515,6.398027583657709,1085.607636981739 80.61833906227902,6.397581861612163,1086.682480083451 80.61687963974539,6.397615913846878,1088.832166286876 80.61613178201561,6.397283192646652,1090.27888373675 80.61575060576783,6.397333892632293,1091.725601186624 80.61415992990044,6.396427413697091,1101.011369034473 80.60563466181854,6.398268258599169,1069.519434278473 80.60418975463777,6.398095749721454,1067.92473628198 80.60201971472172,6.397176253875235,1066.330038285486 80.6002416510854,6.397544374729958,1063.140642292499 80.59683485090743,6.398638251469273,1069.60311636154 80.59537768773976,6.398013546966834,1075.318012272558 80.59374619808519,6.398618976550463,1084.294868238668 80.58508672329495,6.395236168450788,1088.841711133232 80.57993697710248,6.39223992119224,1093.388554027797 80.57841155932103,6.392379764580786,1090.485153072962 80.57763563787438,6.392634340565762,1087.581752118128 80.57543198115329,6.392887162163532,1111.200829316947 80.57336535782255,6.393531662824103,1083.830903935928 80.57141631149121,6.393882762372427,1056.460978554909 80.57149023066471,6.387984299098344,682.9127434056657 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
