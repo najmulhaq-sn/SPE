@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Rubber Kamburupitiya</name>
+	<gx:CascadingStyle kml:id="__managed_style_041DB997D6254EDE2B9B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12984CB85C254EDE2B9A">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0F2107D013254EDE2B9A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12984CB85C254EDE2B9A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_041DB997D6254EDE2B9B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0925FBF8FE254EDE2B9A">
+		<name>Untitled Polygon</name>
+		<LookAt>
+			<longitude>80.55587606747622</longitude>
+			<latitude>6.085730473201193</latitude>
+			<altitude>37.09867798322193</altitude>
+			<heading>354.0913591622999</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>342.2676890032017</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F2107D013254EDE2B9A</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						80.55473506741163,6.085898130141104,33.14902262193954 80.55491689652536,6.085764310990578,32.54256028099731 80.55488741120379,6.085714718413847,31.93609794005507 80.55517880140869,6.085518760584232,30.50012369863499 80.55546251923049,6.085444644647539,32.26854341883781 80.55581933842612,6.085436752737697,34.75177117062492 80.55606038689886,6.085438702201321,34.75575626911484 80.55620614974877,6.085645785957206,35.20993170077158 80.55633955533084,6.085858333381615,33.92051507020902 80.55640729684382,6.086033867562134,32.01145161170445 80.55627664197613,6.086115291812133,31.55969385094148 80.55610345149096,6.086103786770367,32.15593099796606 80.55593780880251,6.086183957468815,31.7434027797927 80.55581498095782,6.086161661722858,32.09019894422669 80.5558117482676,6.086038133642711,33.37191390778305 80.55586081672183,6.085987614258514,34.0572163192306 80.5557209660472,6.085915919961042,34.16955959900061 80.55550813565409,6.085996420167774,32.22662775460111 80.55534443035431,6.085980207426117,31.50140503765353 80.55523085241306,6.086056943200206,30.80791957556951 80.5550221232327,6.086029777485387,31.76402469799025 80.55493014426186,6.086000494494089,32.43075139244038 80.55486382961726,6.086094654276532,33.0974780868905 80.55473506741163,6.085898130141104,33.14902262193954 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Rubber Plantattion SPE</name>
+	<gx:CascadingStyle kml:id="__managed_style_2DA19F62CD2542BD6D7B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1B9E6A6D0F2542BD6D7B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0C89E419142542BD6D7B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1B9E6A6D0F2542BD6D7B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2DA19F62CD2542BD6D7B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0F980BF7522542BD6D7A">
+		<name>SPE RUBBER</name>
+		<LookAt>
+			<longitude>79.9834930628368</longitude>
+			<latitude>6.885303434944862</latitude>
+			<altitude>29.63068530003375</altitude>
+			<heading>37.0770877214859</heading>
+			<tilt>44.98811473184576</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>214.7395077866895</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0C89E419142542BD6D7B</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						79.98378085738447,6.88625762977872,30.23818159122193 79.983345290866,6.886082483157796,31.04347734165747 79.98319874850831,6.885829916222205,30.24421367887113 79.9831832960723,6.885601800766677,29.65299875859004 79.98318942846734,6.885370236742574,29.36599013264069 79.98326095378958,6.885087959971727,29.17441473307414 79.98331178580668,6.884898670216257,28.64506078163018 79.98348724104983,6.88506280904217,29.50111579861809 79.9836850338686,6.885216727353402,29.76298416323944 79.98398852178295,6.885301844150616,29.60829786526875 79.98399775473241,6.885374912925422,29.5638041146685 79.98378085738447,6.88625762977872,30.23818159122193 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

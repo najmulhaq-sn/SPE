@@ -1,0 +1,177 @@
+{
+    "request": {
+        "headers": {
+            "accept": "image/tiff",
+            "content-type": "application/json"
+        },
+        "payload": {
+            "evalscript": "\n    //VERSION=3\n\n    function setup() {\n        return {\n            input: [{\n                bands: [\"B02\", \"B03\", \"B04\",\"B08\",\"CLM\"],\n                \n            }],\n            output: {\n                bands: 5,\n                sampleType: \"float32\"\n            }\n        };\n    }\n\n    function evaluatePixel(sample) {\n        return [sample.B02, sample.B03, sample.B04,sample.B08,sample.CLM];\n    }\n",
+            "input": {
+                "bounds": {
+                    "bbox": [
+                        80.54821585722028,
+                        7.090095618354233,
+                        80.55549105606482,
+                        7.094269353814045
+                    ],
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    80.54830487807055,
+                                    7.091389592978123
+                                ],
+                                [
+                                    80.54862791908224,
+                                    7.090805799293554
+                                ],
+                                [
+                                    80.54983642121566,
+                                    7.090095618354233
+                                ],
+                                [
+                                    80.55092306057094,
+                                    7.090242938738808
+                                ],
+                                [
+                                    80.55188896170847,
+                                    7.090409452192686
+                                ],
+                                [
+                                    80.55227593587927,
+                                    7.090603746873468
+                                ],
+                                [
+                                    80.5529179323296,
+                                    7.090755154721034
+                                ],
+                                [
+                                    80.55346816766178,
+                                    7.090671050763481
+                                ],
+                                [
+                                    80.55432140631527,
+                                    7.090554366259594
+                                ],
+                                [
+                                    80.55468187831444,
+                                    7.090555537828836
+                                ],
+                                [
+                                    80.55514106300843,
+                                    7.090912716548088
+                                ],
+                                [
+                                    80.55538021573395,
+                                    7.091750078211295
+                                ],
+                                [
+                                    80.55549105606482,
+                                    7.09276934936267
+                                ],
+                                [
+                                    80.55517581437981,
+                                    7.093634180154063
+                                ],
+                                [
+                                    80.55438863399355,
+                                    7.093987127891059
+                                ],
+                                [
+                                    80.55357122091151,
+                                    7.094269353814045
+                                ],
+                                [
+                                    80.55309183098282,
+                                    7.094258540149994
+                                ],
+                                [
+                                    80.55259774343656,
+                                    7.094107479305658
+                                ],
+                                [
+                                    80.55215407514378,
+                                    7.093874109319693
+                                ],
+                                [
+                                    80.5516313647314,
+                                    7.09373405028987
+                                ],
+                                [
+                                    80.55100530721425,
+                                    7.093435738070862
+                                ],
+                                [
+                                    80.55023178136356,
+                                    7.093199587555364
+                                ],
+                                [
+                                    80.55022908604994,
+                                    7.093214764611119
+                                ],
+                                [
+                                    80.54910536783512,
+                                    7.092933524711025
+                                ],
+                                [
+                                    80.54821585722028,
+                                    7.092222796764053
+                                ],
+                                [
+                                    80.54830487807055,
+                                    7.091389592978123
+                                ]
+                            ]
+                        ],
+                        "type": "Polygon"
+                    },
+                    "properties": {
+                        "crs": "http://www.opengis.net/def/crs/EPSG/0/4326"
+                    }
+                },
+                "data": [
+                    {
+                        "dataFilter": {
+                            "mosaickingOrder": "leastCC",
+                            "timeRange": {
+                                "from": "2022-08-18T00:00:00Z",
+                                "to": "2022-09-18T23:59:59Z"
+                            }
+                        },
+                        "type": "sentinel-2-l2a"
+                    }
+                ]
+            },
+            "output": {
+                "height": 46,
+                "responses": [
+                    {
+                        "format": {
+                            "type": "image/tiff"
+                        },
+                        "identifier": "default"
+                    }
+                ],
+                "width": 80
+            }
+        },
+        "timestamp": "2022-10-18T22:24:53.103652",
+        "url": "https://services.sentinel-hub.com/api/v1/process"
+    },
+    "response": {
+        "elapsed": 1.307669,
+        "headers": {
+            "Connection": "keep-alive",
+            "Content-Type": "image/tiff",
+            "Date": "Tue, 18 Oct 2022 16:54:54 GMT",
+            "Transfer-Encoding": "chunked",
+            "access-control-allow-credentials": "true",
+            "access-control-allow-headers": "origin,content-type,accept,accept-crs,authorization,cache-control",
+            "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS, HEAD, PATCH",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3600",
+            "x-processingunits-spent": "0.04679361867601983"
+        },
+        "status_code": 200
+    }
+}

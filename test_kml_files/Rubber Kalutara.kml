@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Untitled Project</name>
+	<gx:CascadingStyle kml:id="__managed_style_0F0329B0F72542CFDE41">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_124BCF3EA12542CFDE40">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_006030A45C2542CFDE40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_124BCF3EA12542CFDE40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0F0329B0F72542CFDE41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="017A4E849D2542CFDE3E">
+		<name>Rubber Kalutara Land</name>
+		<LookAt>
+			<longitude>79.97729733088529</longitude>
+			<latitude>6.569681334330737</latitude>
+			<altitude>21.86188748668179</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00040836651427</gx:fovy>
+			<range>1001.332368679577</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_006030A45C2542CFDE40</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						79.97745580348781,6.570696817447866,19.04105120677898 79.97724545238434,6.570390695192025,20.9981274711907 79.97713805087905,6.570192638307513,22.60716482942873 79.97687514105928,6.570032567001821,24.14822560892435 79.97645651547177,6.569888625726555,24.6875197471951 79.97653694564822,6.569616432074248,24.5376519213298 79.97656759575462,6.569181726787533,22.55912763781249 79.9771808331965,6.569131065449549,20.75481681650733 79.97764582121333,6.569027893270256,16.26527867468235 79.97775981552881,6.56904306541043,15.61480611774301 79.97796316373599,6.570100796295693,16.73838748181785 79.97785448754099,6.570374549217846,17.48047309201897 79.97773528476355,6.570599830844574,17.93712208874234 79.97745580348781,6.570696817447866,19.04105120677898 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TemperateDeciduousRussia</name>
+	<gx:CascadingStyle kml:id="__managed_style_06AF1B238925AF0D4076">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_175C894E5125AF0D4075">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0517819CBE25AF0D4075">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_175C894E5125AF0D4075</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_06AF1B238925AF0D4076</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0982714B9F258C5A39C6">
+		<name>TemperateDeciduousRussia</name>
+		<LookAt>
+			<longitude>105.2821081585162</longitude>
+			<latitude>61.542848769957</latitude>
+			<altitude>399.5484775707769</altitude>
+			<heading>-83.60003636057365</heading>
+			<tilt>45.2146291836056</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>34227.17163428664</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0517819CBE25AF0D4075</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						104.9827024462209,61.9503976965663,399.3927567107248 104.9978745149073,61.96229594209595,396.2872415497097 104.9555339935419,61.96231573442122,367.3614278149589 104.8789450866154,61.96813966661299,363.1034969515196 104.9585439595314,61.9295567274842,381.2481268311222 104.9827024462209,61.9503976965663,399.3927567107248 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

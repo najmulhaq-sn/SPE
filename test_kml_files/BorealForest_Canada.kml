@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BorealForest_Canada</name>
+	<gx:CascadingStyle kml:id="__managed_style_059B6C060E25AF0C72C5">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1B3BA2BBDB25AF0C72C4">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0DE239DDFB25AF0C72C4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1B3BA2BBDB25AF0C72C4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_059B6C060E25AF0C72C5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="07B1308F3F258C49414C">
+		<name>Untitled Polygon</name>
+		<LookAt>
+			<longitude>-86.69216456044474</longitude>
+			<latitude>50.17466327162215</latitude>
+			<altitude>316.4859943268253</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999999991</gx:fovy>
+			<range>2181.341592506797</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DE239DDFB25AF0C72C4</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-86.70613839993423,50.17630001385793,319.7969596711903 -86.68373978759531,50.1691228018829,315.9342217136676 -86.68260087735393,50.17154994341762,322.7082318499589 -86.68311148186821,50.17254403640104,327.0328676151825 -86.68066905886971,50.17528806391888,342.8417347121676 -86.68857544283756,50.17888660949897,319.656322195537 -86.68986554482447,50.1785223939494,319.6945762305427 -86.69135704419051,50.17861357120444,319.7328302655483 -86.69367025388568,50.18044848379505,315.7491417344669 -86.69607396070663,50.18011620654041,316.2420295189174 -86.70338383272784,50.17894483168646,319.0674153038256 -86.70613839993423,50.17630001385793,319.7969596711903 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

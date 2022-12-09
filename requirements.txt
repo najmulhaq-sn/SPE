@@ -1,0 +1,11 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+fastkml
+pandas
+numpy
+earthpy
+sentinelhub
+matplotlib
+folium
+flask

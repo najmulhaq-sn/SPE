@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sinharaja Forest Reserve,</name>
+    <description/>
+    <Style id="poly-0000FF-3000-115-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0000FF-3000-115-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-3000-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-3000-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-3000-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>National Reserve</name>
+        <description>The Sinharaja Forest Reserve, which was established in 1978 to protect the nearly extinct tropical lowland rain forest, was flagged as a World Heritage Site in 1988.</description>
+        <styleUrl>#poly-0000FF-3000-115</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                80.288773,6.447682,0
+                80.295639,6.436083,0
+                80.312805,6.430625,0
+                80.329971,6.429942,0
+                80.339584,6.423801,0
+                80.347137,6.401966,0
+                80.368423,6.389001,0
+                80.382156,6.389001,0
+                80.401382,6.38286,0
+                80.417862,6.3774,0
+                80.424728,6.379448,0
+                80.437088,6.373988,0
+                80.447388,6.378765,0
+                80.465927,6.367847,0
+                80.475118,6.370793,0
+                80.477865,6.374888,0
+                80.482328,6.37284,0
+                80.478552,6.369428,0
+                80.480268,6.362604,0
+                80.486791,6.359192,0
+                80.495374,6.352709,0
+                80.507391,6.35578,0
+                80.507047,6.361239,0
+                80.525587,6.36977,0
+                80.538976,6.374205,0
+                80.537946,6.386488,0
+                80.561979,6.388194,0
+                80.572622,6.379664,0
+                80.581548,6.382735,0
+                80.578459,6.387512,0
+                80.586698,6.390583,0
+                80.598715,6.380006,0
+                80.629957,6.383418,0
+                80.651586,6.375229,0
+                80.657423,6.385124,0
+                80.652616,6.397065,0
+                80.63648,6.395018,0
+                80.636137,6.415148,0
+                80.592878,6.432547,0
+                80.566786,6.432888,0
+                80.52387,6.426065,0
+                80.499151,6.426747,0
+                80.473745,6.428112,0
+                80.451086,6.4421,0
+                80.43186,6.446193,0
+                80.381391,6.477578,0
+                80.375555,6.474508,0
+                80.354269,6.50248,0
+                80.342596,6.50248,0
+                80.288773,6.447682,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
